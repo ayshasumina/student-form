@@ -1,0 +1,81 @@
+@font-face {
+  font-family: inter;
+  src: url(./../public/NotoSerif_Condensed-ExtraBoldItalic.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Noto Serif Condensed', sans-serif;
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Inter;
+}
+.logo {
+  width: 10px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  
+}
+
+.main{
+  width: 600px;
+  height: 650px;
+  background-color: gainsboro;
+  padding: 20px;
+  border-radius: 20px;
+}
+.main h1{
+  text-align: center;
+}
+.name{
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+  padding-top: 40px;
+}
+.gender{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.course{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+#dob,#gender{
+  width: 150px;
+  font-size:15px;
+  height: 35px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 10px;
+}
+#course{
+  width: 200px;
+  font-size: 20px;
+  height: 45px;
+  border-radius: 10px;
+}
+.bton{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  
+}
+.bton button{
+  background-color: black;
+  color: aliceblue;
+  width: 100px;
+}
+.bton button:hover{
+  background-color: rgb(215, 58, 250);
+  color: black;
+}
